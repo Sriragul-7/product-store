@@ -7,8 +7,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node modules
 node_modules
-dist
+
+# Ignore everything in dist except frontend/dist
+dist/
+!frontend/dist
 dist-ssr
 *.local
 

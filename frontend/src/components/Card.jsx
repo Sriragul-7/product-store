@@ -47,7 +47,7 @@ export default function Card({ product }) {
         />
         <div className="p-4">
           <h2 className="text-lg font-semibold">{product.name}</h2>
-          <p className="text-gray-300 font-bold">₹{product.price}</p>
+          <p className="text-gray-300 font-bold">${product.price}</p>
         </div>
         <div className="flex justify-between p-4 border-t">
        <button
